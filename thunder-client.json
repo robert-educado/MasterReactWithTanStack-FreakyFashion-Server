@@ -1,0 +1,241 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Master React with TanStack",
+    "collectionId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+    "dateExported": "2025-06-08T12:56:58.861Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8add5804-1b7a-48be-ba5c-9f17e13c0c6e",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Search products with locale en",
+            "url": "http://localhost:8000/search?q=jeans&locale=en",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2025-06-06T06:41:33.322Z",
+            "modified": "2025-06-06T06:42:50.461Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "q",
+                    "value": "jeans",
+                    "isPath": false
+                },
+                {
+                    "name": "locale",
+                    "value": "en",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "a701fbc7-0842-4951-b064-aa157ae75183",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch products without locale",
+            "url": "http://localhost:8000/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-06-05T10:52:57.266Z",
+            "modified": "2025-06-05T10:52:57.266Z",
+            "headers": []
+        },
+        {
+            "_id": "a8c577ff-2407-454c-85d8-61f82da9f5cf",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Search products with locale no",
+            "url": "http://localhost:8000/search?q=jeans&locale=no",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2025-06-06T06:42:29.584Z",
+            "modified": "2025-06-06T06:42:48.625Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "q",
+                    "value": "jeans",
+                    "isPath": false
+                },
+                {
+                    "name": "locale",
+                    "value": "no",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "66077eff-6aaf-4344-8a40-0a7f6e061273",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch products with locale en",
+            "url": "http://localhost:8000/products?locale=en&status=new",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-06-05T10:52:57.267Z",
+            "modified": "2025-06-05T10:55:07.665Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "locale",
+                    "value": "en",
+                    "isPath": false
+                },
+                {
+                    "name": "status",
+                    "value": "new",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "2977baf4-2f0e-4f1a-b196-390cad50bf69",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch products with locale no",
+            "url": "http://localhost:8000/products?locale=no",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-06-05T10:52:57.268Z",
+            "modified": "2025-06-05T10:52:57.268Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "locale",
+                    "value": "no",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "70f1e04d-b1e6-45bb-9fba-9b69d6ec02b2",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch new products with locale en",
+            "url": "http://localhost:8000/products?locale=no",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2025-06-06T06:39:33.988Z",
+            "modified": "2025-06-06T06:39:33.988Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "locale",
+                    "value": "no",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "f29b822e-d4e9-408a-a345-97e3d8ae0e2f",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch new products with locale no",
+            "url": "http://localhost:8000/products?statue=new&locale=no",
+            "method": "GET",
+            "sortNum": 37500,
+            "created": "2025-06-06T06:39:50.092Z",
+            "modified": "2025-06-06T06:40:21.379Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "statue",
+                    "value": "new",
+                    "isPath": false
+                },
+                {
+                    "name": "locale",
+                    "value": "no",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "4be8277d-0082-4211-8566-b2496b84bd6b",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch product by slug",
+            "url": "http://localhost:8000/products/blue-jeans",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-06-05T10:52:57.269Z",
+            "modified": "2025-06-05T10:52:57.269Z",
+            "headers": []
+        },
+        {
+            "_id": "fe91978f-afe2-4109-b643-048f07ff192d",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Create product",
+            "url": "http://localhost:8000/products",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2025-06-05T10:52:57.270Z",
+            "modified": "2025-06-08T12:55:59.404Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Classictes2t1\",\n  \"description\": \"A comfortable cotton t-shirt for everyday wear.\",\n  \"imageUrl\": \"https://placehold.co/300x400.png\",\n  \"brand\": \"Brand x\",\n  \"price\": 10,\n  \"locale\": \"en\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "304c2dd9-ab08-4193-a5e0-5d563595a4d0",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Delete product by slug Copy",
+            "url": "http://localhost:8000/products/blue-jeans",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2025-06-05T10:52:57.271Z",
+            "modified": "2025-06-05T10:52:57.271Z",
+            "headers": []
+        },
+        {
+            "_id": "ec16beb3-c117-4dc6-ae31-228f59fa14ed",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch categories without locale",
+            "url": "http://localhost:8000/categories",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-06-05T10:52:57.272Z",
+            "modified": "2025-06-05T10:52:57.272Z",
+            "headers": []
+        },
+        {
+            "_id": "b2a1cad9-c6a6-46f2-88a0-62c9a4b2909d",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch categories without locale Copy",
+            "url": "http://localhost:8000/categories?locale=no",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2025-06-05T10:52:57.273Z",
+            "modified": "2025-06-05T10:52:57.273Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "locale",
+                    "value": "no",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "fda10883-c85d-43ea-95ec-abe0b3e7098f",
+            "colId": "b04fdbf6-07b1-4a1f-bcb8-857b230dc248",
+            "containerId": "",
+            "name": "Fetch category by slug",
+            "url": "http://localhost:8000/categories/clothing",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2025-06-05T10:52:57.274Z",
+            "modified": "2025-06-05T10:52:57.274Z",
+            "headers": []
+        }
+    ],
+    "ref": "pAW09WBvQ2YocHMOEjRvWN-xDlyrTrY3dqD6II_5jryAcrslahxgNZwA3fMO_wGjziqalBdsEzYyG3rLJdRgNw"
+}
